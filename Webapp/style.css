@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css?family=Rambla&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Rambla, sans-serif;
+    overflow-y: hidden;
+}
+
+body{
+  background: #FFFDF6;
+  background-size: cover;
+  background-image: url(media/bg.jpg);
+}
+
+.weather-Tab{
+  display: inline-block;
+  margin-top: 15vh;
+  
+  height: 500px;
+  width: 28vw;
+  border-radius: 50px;
+  background: rgba(252,197,49,0.9);
+  -webkit-backdrop-filter: blur(34px);
+  backdrop-filter: blur(34px);
+  border: 1px solid rgba(252,197,49,0.45);
+  
+}
+.weather-icon{
+  font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.temperature-value{
+    font-size: 30px;
+    font-weight: bold;
+
+    text-align: center;
+    margin-top: 20px;
+}
+
+.temperature-description{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.location{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.garden-info-tab{
+   
+    margin-top: 10vh;
+    margin-left: 20vw; 
+    width: 80vw;
+}
+
+.open-tech{
+    display: flex;
+    justify-content: center;
+    width: 5rem;
+    background: #20603C;
+    border-radius: 0px 20px 20px 0px;
+    color: #f1f1f1 ;
+    z-index: 1;
+    margin-top: 70px;
+    position: fixed
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+/* From https://css.glass */
+background: rgba(0, 0, 0, 0.36);
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(10.5px);
+-webkit-backdrop-filter: blur(10.5px);
+border: 1px solid rgba(0, 0, 0, 0.3);
+  }
+  
+  .content-container{
+     z-index: 1;
+    background: rgba(0, 0, 0, 0.36);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10.5px);
+    -webkit-backdrop-filter: blur(10.5px);
+    border: 1px solid rgba(0, 0, 0, 0.3);
+  }
+
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+
+  #myVideo {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  
+  .closebtn{
+    padding: 0;
+    border: none;
+    background: none;
+    color: #FFFDF6;
+  }
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+  .plant-status{
+      display: flex;
+      justify-content: center;
+      padding-top: 20vh;
+      margin: 38px;
+  }
+
+  .main-element{
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    width: 97vw;
+    /* padding-right: 16vw; */
+    margin-left: 1vw;
+    margin-top: 1.5vh;
+    height: 97vh;
+    border-radius: 53px;
+    background: rgba(255,255,255,0.65);
+    -webkit-backdrop-filter: blur(47px);
+    backdrop-filter: blur(47px);
+    border: 1px solid rgba(255,255,255,0.325);
+  }
+
+  .watering-btn{
+    border: none;
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-style: bold;
+    font-weight: 900;
+    background: rgba(0,186,255,0.9);
+-webkit-backdrop-filter: blur(34px);
+backdrop-filter: blur(34px);
+border: 1px solid rgba(0,186,255,0.45);
+    
+  }
+  
+  
