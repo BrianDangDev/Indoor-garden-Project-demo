@@ -11,7 +11,7 @@ weather.temperature = {
 const KELVIN = 273;
 
 //API
-const key = "97a0fd3c240e0a154fd72aaf21977ed8";
+const key = "API key";
 
 //Check if browswe support geo location
 if ("geolocation" in navigator) {
@@ -74,7 +74,7 @@ const soilmoisture = {};
 const soilmoisture_2 = {};
 
 function GetSoilData() {
-  api = `https://api.thingspeak.com/channels/1738980/feeds.json?results=2`;
+  api = `https://api.thingspeak.com/channels/channelID/feeds.json?results=2`;
   setInterval(function () {
     fetch(api)
       .then(function (response) {
